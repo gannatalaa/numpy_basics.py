@@ -159,14 +159,16 @@ print(np.unique(arr_unique))
 print("------------------------------------------------------------------------")
 
 # Rounding functions
+
 arr22 = np.array([1.2, 2.6, 3.5, 4.1])
-print(np.round(arr22))
+print(np.round(arr22))  # np.round: rounds each element to the nearest integer
 
 arr33 = np.array([1.9, 2.3, 3.7, 4.1])
-print(np.floor(arr33))
+print(np.floor(arr33))  # np.floor: rounds each element down to the nearest integer (floor)
 
 arr44 = np.array([1.2, 2.3, 3.8, 4.1])
-print(np.ceil(arr44))
+print(np.ceil(arr44))   # np.ceil: rounds each element up to the nearest integer (ceiling)
 
 arr55 = np.array([1.9, 2.3, 3.7, 4.1])
-print(np.trunc(arr55))
+print(np.trunc(arr55))  # np.trunc: truncates the decimal part, keeping only the integer part
+مم
